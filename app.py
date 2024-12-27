@@ -15,7 +15,7 @@ website_link = "https://www.kaggle.com/datasets/ironwolf437/laptop-price-dataset
 st.write("The Dataset link: [Laptops dataset](%s)" % website_link)
 st.sidebar.header("Navigation")
 st.sidebar.markdown("Created by [Ahmed Yusri](https://www.linkedin.com/in/ahmed-yusri-499a67313)")
-st.sidebar.image("laptop.png")
+st.sidebar.image("laptop.jpg")
 # Create an set of options for user to select
 sidebar_option = st.sidebar.radio("Choose an Option:", ["Overview", "EDA", "Modeling", "Insights"])
 

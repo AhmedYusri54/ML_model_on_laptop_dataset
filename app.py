@@ -4,6 +4,7 @@ import pickle as pk
 import seaborn as sns
 from helper_funcation import  dis_char, count_features_plot
 import matplotlib.pyplot as plt
+import sklearn
 # Load the dataset
 df = pd.read_csv("final_laptop_price.csv")
 

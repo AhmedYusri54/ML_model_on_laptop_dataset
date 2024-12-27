@@ -5,7 +5,7 @@ import seaborn as sns
 from helper_funcation import  dis_char, count_features_plot
 import matplotlib.pyplot as plt
 # Load the dataset
-df = pd.read_csv("datasets/final_laptop_price.csv")
+df = pd.read_csv("final_laptop_price.csv")
 
 # Drop the Unnamed column from the dataset 
 df.drop(columns="Unnamed: 0", inplace=True)
